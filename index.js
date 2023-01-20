@@ -93,12 +93,12 @@ function checkWin() {
     if(turn==='X' && !updated){
       scoreOne += 1;
       score1.innerHTML = `${scoreOne}`;
-      turnMsg.innerHTML= 'player 1 won!';
+      turnMsg.innerHTML= 'player 1 wins!';
       updated = true;
     }else if (turn ==='O' && !updated){
       scoreTwo += 1;
       score2.innerHTML = `${scoreTwo}`;
-      turnMsg.innerHTML= 'player 2 won!';
+      turnMsg.innerHTML= 'player 2 wins!';
       updated = true;
     } 
   } else if (moves >= 9 && !updated) {
