@@ -107,7 +107,7 @@ h3 {
 }
 .square {
   background: transparent;
-  outline: 3px solid #fff;
+  outline: 1px solid #fff;
   /* border: 3px solid #fff; */
   font-size: 300%;
   font-weight: bold;
