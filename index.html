@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js" defer></script>
+    <link href="/favicon (3).ico" rel="icon" type="image/x-icon" />
+
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Tic Tac Toe</h1>
+        <button id="hint">?</button>
+        <div class="hint-container">
+            
+            <div class="card">
+                <h3>Hint</h3>
+                <p>-The first to put three similar signs in a row , column or diagonal wins.</p>
+                <p>-press Reset button to set the board again</p>
+                <p>-press Reload button to set the board and the score again</p>
+            </div>
+        </div>
+    </div>
+    <p class="turn"></p>
+    <div id="board"></div>
+
+    <div id="message">
+        <div id="player1">
+            <h2>Player 1(X)</h2>
+            <p class="score1"></p>
+        </div>
+        <div id="tie">
+            <h2>Tie</h2>
+            <p class="scoreT"></p>
+        </div>
+        <div id="player2">
+            <h2>Player 2(O)</h2>
+            <p class="score2"></p>
+        </div>
+    </div>
+    <div class="buttons">
+        <button id="reset">Reset</button>
+        <button id="reload">Reload</button>
+    </div>
+   
+
+</body>
+</html>
