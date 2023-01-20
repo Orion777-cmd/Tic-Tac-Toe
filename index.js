@@ -16,6 +16,8 @@ const hintBtn = document.getElementById('hint');
 const none = document.getElementsByClassName('.none');
 const card = document.querySelector('.card');
 const turnMsg = document.querySelector('.turn');
+const hintContainer = document.querySelector('.hint-container');
+
 turnMsg.innerHTML = `${turn}'s turn`
 let scoreOne = 0,
     scoreTwo = 0, 
@@ -143,7 +145,8 @@ function reload() {
   buildTable();
 }
 hintBtn.addEventListener('click', ()=>{
-  card.classList.toggle('none');
+  hintContainer.classList.toggle('clicked');
+  // hintContainer.style.top === "-300%"? hintContainer.style.top = "100%" : hintContainer.style.top = "-300%"
 })
 resetGame.addEventListener('click', reset);
 reloadGame.addEventListener('click', reload);
