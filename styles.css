@@ -167,4 +167,8 @@ button:hover {
 .hint-container h3 {
   font-size: 0.875rem
 }
+#message {
+    gap: 3rem;
+    font-size: 0.875rem;
+}
 }
